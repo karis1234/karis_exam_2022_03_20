@@ -19,10 +19,4 @@ public class UserController {
     public String user() {
         return "유저 1명";
     }
-
-    @RequestMapping("2")
-    @ResponseBody
-    public String userses() {
-        return "유저 2명";
-    }
 }
