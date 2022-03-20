@@ -11,7 +11,7 @@ public class UserController {
     @ResponseBody
     public String users() {
 
-        return "유저 설정!!!!!";
+        return "유저 1명!!!!!!";
     }
 
 
