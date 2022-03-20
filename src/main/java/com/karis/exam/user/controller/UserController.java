@@ -10,13 +10,13 @@ public class UserController {
     @RequestMapping("")
     @ResponseBody
     public String users() {
-        return "유저 여러명";
+        return "안녕하세요";
     }
 
 
     @RequestMapping("1")
     @ResponseBody
     public String user() {
-        return "유저 한명";
+        return "유저 한명!!";
     }
 }
