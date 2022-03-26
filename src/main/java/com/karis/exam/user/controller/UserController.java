@@ -1,5 +1,9 @@
 package com.karis.exam.user.controller;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,7 +17,6 @@ public class UserController {
 
         return "유저 1명!!!!!!";
     }
-
 
     @RequestMapping("1")
     @ResponseBody
